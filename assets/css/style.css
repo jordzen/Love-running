@@ -1,5 +1,4 @@
-/* Google font imports */
-
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -9,34 +8,39 @@
     box-sizing: border-box;
 }
 
-/* General styles */ 
-
-body { 
+/* General styles */
+body {
     min-height: 100vh;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 h1 {
-    font-family: 'oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Header */
-Header {
-    background-color: lightcoral; 
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    
 }
 
 /* Main content */
-Main {
+main {
     background-color: lightblue;
-    /* make main element take up any surplus space to push footer down*/
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
-Footer {
+footer {
     background-color: orange;
 }
