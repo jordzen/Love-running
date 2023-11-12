@@ -20,10 +20,13 @@ body {
     font-family: 'lato', sans-serif;
 }
 
+h1 {
+    font-family: 'oswald', sans-serif;
+}
 
 /* Header */
 Header {
-    background-color: lightcoral;
+    background-color: lightcoral; 
 }
 
 /* Main content */
