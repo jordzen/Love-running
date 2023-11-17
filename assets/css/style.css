@@ -117,6 +117,49 @@ main {
     color: #ffffff;
 }
 
+/* Reasons Section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits>div {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#circle-cover-bg {
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
